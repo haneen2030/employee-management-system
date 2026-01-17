@@ -1,43 +1,3 @@
-//let x = document.getElementById("son");
-//x.textContent = "DOM example";
-//x.style.color = "blue";
-// x.style.display = "none";
-
-
-
-// const employees = [
-    
-//     {
-
-//     id : 1,
-//     name : "Haneen",
-//     job: "backend eng",
-//     salary: 120000,
-// },
-
-
-// {
-
-//     id : 2,
-//     name : "Leen",
-//     job: "accountent",
-//     salary: 100000,
-// },
-// {
-//     id : 3,
-//     name : "Hend",
-//     job: "teacher ",
-//     salary: 200000,
-// },
-
-// {
-//     id : 3,
-//     name : "sara",
-//     job: "teacher ",
-//     salary: 200000,
-// }
-
-// ]
 
 
 const form = document.getElementById("form-istbian");
@@ -101,4 +61,5 @@ function editEmployee(index) {
     salaryInput.value = emp.salary;
 
     editIndex = index;
+
 }
