@@ -22,7 +22,7 @@ form.addEventListener("submit", function(event) {
         };
         employees.push(NewEmployee);
     } else {
-        // Edit mode - FIX: Use the specific input elements here
+       
         employees[editIndex].name = nameInput.value;
         employees[editIndex].job = jobInput.value;
         employees[editIndex].salary = salaryInput.value;
@@ -63,3 +63,4 @@ function editEmployee(index) {
     editIndex = index;
 
 }
+
